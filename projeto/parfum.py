@@ -9,7 +9,7 @@ console = Console()
 def conectar_banco():
     try:
         client = MongoClient(
-            'mongodb+srv://cauasbl:uRjwOMQ44k7vnaUb@pymongo.ttb7i.mongodb.net/perfumaria?retryWrites=true&w=majority',
+            '(LINK BANCO DE DADOS MONGO)',
             serverSelectionTimeoutMS=5000
         )
         db = client.get_database('perfumaria')
